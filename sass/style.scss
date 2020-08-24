@@ -1,0 +1,74 @@
+@import'variables';
+@import 'logo';
+@import 'mixin';
+@import 'colors';
+@import 'image';
+@import 'typography';
+@import 'containers';
+@import 'mobile';
+@import 'tablet';
+@import 'desktop';
+
+
+
+.h1, .h2, .h3, .p{
+  color: $icon-font-colour;
+}
+
+
+.socials {
+  position: absolute;
+  top: 50%;
+  margin-top: 40px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+
+/* Style the icon bar links */
+.socials a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: $darkblue-colour;
+  font-size: 35px;
+  margin-left: 1480px;
+  margin-top: 20px;
+
+}
+
+.socials a:hover {
+  background-color:$grey-color;
+  // color: $darkblue-colour;
+}
+
+.facebook {
+  background: transparent;
+  color: #010101;
+}
+
+.twitter {
+  background: transparent;
+  color: #010101;
+}
+
+.instagram {
+  background: transparent;
+  color: #010101;
+}
+
+.clear-mobile{
+  background: whitesmoke;
+  width: 100%;
+  height: auto;
+  margin: 400px;
+}
+
+.clear{
+  background: whitesmoke;
+  width: 100%;
+  height: auto;
+  margin: 250px;
+}

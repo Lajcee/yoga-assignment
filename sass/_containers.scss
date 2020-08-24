@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  background-color: whitesmoke;
+}
+.row{
+  width: 100%;
+}
+
+.col{
+  float:left;
+  // padding:10px;
+  margin-bottom: 15px;
+}
+
+
+.clearfix::after{
+  clear: both;
+  display: table;
+  content:"";
+}
+
+.col-9{
+  float: left;
+  width: 20%;
+  display: inline-block;
+
+}
+
+
+
+.col-4{
+  @include dimension(33%,200px);
+  border: .1%;
+  // padding: 15px;
+  // border: 1px solid blue;
+}

@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px)  {
+.top-nav{
+  // border: 1px solid black;
+  display: none;
+  width: 80%;
+  padding-left: 10px;
+  padding-top: 15px;
+  background-color: $grey-color;
+  color: $icon-font-colour;
+
+    ul{
+      width:100%;
+      // border: 1px solid black;
+      li{
+        list-style: none;
+        height: 40px;
+        width:100%;
+        background: $grey-color;
+        a:link{
+          color: blue;
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
+      }
+    }
+
+}
+
+.socials{
+  display: none;
+}
+
+.blue-block{
+  display: none;
+}
+
+
+
+.top-nav-link{
+  font-size: 15px;
+}
+
+.nav-bar{
+  // background-color:$grey-color;
+  width: 20%;
+  height: 160px;
+}
+
+
+.menu-icon{
+  font-size: 40px;
+  color: $icon-font-colour;
+  margin: 12px;
+  // float: right;
+}
+
+.menu-icon::after{
+  clear: both;
+}
+
+.active{
+  display: block;
+}
+
+.header{
+  width: 100%;
+}
+
+.logo{
+  position: absolute;
+  width: 480px;
+  height: auto;
+  text-align: center;
+  background-color: transparent;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 120px;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+//
+// .blue-block{
+//   position: absolute;
+//   width: 80%;
+//   height: 40%;
+//   left: 0px;
+//   top: 361px;
+//   background: $blue-colour;
+//   opacity: 80%;
+//   z-index : -1;/*send backward*/
+//   position : absolute;
+// }
+
+
+.banner-text{
+  display:none;
+}
+
+.text-container{
+  padding: 10px;
+}
+
+.clear{
+  display: none;
+}
+
+.intro-quote{
+  font-size: 12px;
+}
+
+.intro-images{
+  position: absolute;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.BKS {
+  width: 100%;
+  // border: 2px solid red;
+  position: absolute;
+  margin-top: 620px;
+}
+
+.about-us{
+  width: 100%;
+  // border: 2px solid red;
+  position: absolute;
+  margin-top: 900px;
+}
+
+
+
+.col-12{
+  @include dimension (100%, auto);
+  // padding: 10px;
+  // border: 2 px solid green;
+}
+}

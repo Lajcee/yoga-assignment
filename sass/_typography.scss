@@ -1,0 +1,66 @@
+.para{
+  line-height: 20px;
+  letter-spacing: 1.2px;
+}
+
+.banner-text{
+  font-size: 50px;
+}
+
+.intro-quote{
+  margin-top: 35px;
+  // position: absolute;
+  width: 100%;
+  // height: 292px;
+  // left: 0px;
+  // top: 959px;
+  background: $grey-color;
+}
+
+.intro-quote h2{
+  color: $darkblue-colour;
+  background-color: $grey-color;
+  // position: absolute;
+  width: 65%;
+  // height: 183px;
+  // left: 190px;
+  font-family: Nunito;
+  font-style: italic;
+  text-align: center;
+  // font-weight: 600;
+  // font-size: 24px;
+  line-height: 33px;
+  // text-align: center;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  // border: solid 1px red,
+}
+
+.BKS{
+  background: $grey-color;
+}
+
+.BKS h2{
+  background-color: $grey-color;
+  margin-bottom: 10px;
+}
+
+.BKS p{
+  background-color: $grey-color;
+  color: black;
+}
+
+.about-us{
+  background: $grey-color;
+}
+
+.about-us h2{
+  background-color: $grey-color;
+  margin-bottom: 10px;
+}
+
+.about-us p{
+  background-color: $grey-color;
+  color: black;
+}
