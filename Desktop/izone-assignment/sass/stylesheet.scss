@@ -1,0 +1,34 @@
+@import 'resets';
+@import 'mixins';
+@import 'variables';
+@import 'typography';
+@import 'form';
+@import 'images';
+@import 'auto';
+@import 'containers';
+@import 'nav';
+
+@import 'desktop';
+@import 'tablet';
+@import 'mobile';
+
+
+
+html,body{
+  background-color: $main-bg-colour;
+  width: 100%;
+  margin: 0px;
+ padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  }
+
+
+h1, h2, p, h4{
+  color: $main-text-colour;
+}

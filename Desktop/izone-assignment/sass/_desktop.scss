@@ -1,0 +1,112 @@
+@media only screen and (min-width: 851px) {
+  body {
+  }
+  .col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33.33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 75%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+
+
+
+// header/nav
+
+.wavesheading{
+  display: none;
+}
+
+.card-device {
+  /* Add shadows to create the "card" effect */
+  // box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  // transition: 0.3s;
+  // border: 1px solid green;
+  // border-radius: 5px; /* 5px rounded corners */
+  // padding: 20px;
+  width: 31%;
+  margin: 1.1%;
+}
+
+  .phone-img{
+    width: 900px;
+    margin-right:-100px;
+    margin-top: -500px;
+    z-index: -1;
+    float: right;
+    padding: 25px;
+  }
+
+
+
+  .top-header{
+    width: 100%;
+    height: auto;
+    // border: 1px solid pink;
+    h1 {
+      width: 60%;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 80px;
+      // line-height: 75px;
+      // border: 1px solid white;
+      margin: 11%;
+  }
+  }
+
+  .header-description{
+    padding-top: 140px;
+    width: 50%;
+  }
+
+// info
+
+.info{
+  width: 100%;
+  height: auto;
+  // border: 1px solid white;
+  overflow: auto;
+}
+
+.info-01{
+  width: 50%;
+  height: auto;
+  float: left;
+  margin: 0;
+  // border: 1px solid red;
+  overflow: auto;
+
+}
+
+.info-02 {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin: 0;
+  // border: 1px solid red;
+
+}
+
+.security-image{
+  height: auto;
+  width: 50%;
+}
+
+.intro{
+  h2{
+    font-size: 50px;
+  }
+  p{
+    font-size: 30px;
+  }
+}
+// forms
+
+
+}
